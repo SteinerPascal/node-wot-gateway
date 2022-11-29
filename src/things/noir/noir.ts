@@ -1,6 +1,6 @@
-{
+export default {
     "@context": "https://www.w3.org/2019/wot/td/v1",
-    "title": "NoIR Camera",
+    "title": "noir-camera",
     "id": "urn:uuid:cf6464b1-89fe-40e1-a4d2-951fd675NDVR",
     "description": "This is a Rasberry Pi NoIR camera v. 1.3. It is used to cread Normalized Difference Vegetation Index (NDVI) images. They can be used to detect plant health.",
     "securityDefinitions": {
@@ -21,7 +21,7 @@
             "op": [
               "readproperty"
             ],
-            "href": "http://192.168.8.100:8081/lastimage"
+            "href": "http://localhost:8081/lastimage"
           }
         ]
       },

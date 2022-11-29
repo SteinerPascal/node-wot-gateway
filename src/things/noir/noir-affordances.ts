@@ -5,9 +5,10 @@ const addNoirAffordances = (Wot: typeof WoT,irrigTd:any)=>{
     .then((thing)=>{
         const imageHistory = []
 
-        console.log(`Produced thing: ${JSON.stringify(thing.getThingDescription())}`)
+        console.log(`Thing Description: ${JSON.stringify(thing.getThingDescription())}`)
 
         thing.setPropertyReadHandler("lastImage",async (value)=>{
+            console.log('getLastImage')
             return true
         })
 
@@ -16,6 +17,7 @@ const addNoirAffordances = (Wot: typeof WoT,irrigTd:any)=>{
         })
 
         thing.setActionHandler("takeImage",async (value)=>{
+            console.log('taking image')
             const myCamera = new PiCamera({
                 mode: 'photo',
                 output: `${ __dirname }/images/test.jpg`,
@@ -32,7 +34,12 @@ const addNoirAffordances = (Wot: typeof WoT,irrigTd:any)=>{
                 return e
             }
         })
+        // expose the thing
+        thing.expose().then(() => {
+            console.info(thing.getThingDescription().title + " ready");
+        });
 
     })
+   
 }
 export default addNoirAffordances

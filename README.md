@@ -12,8 +12,10 @@ node-wot used as my gateway for the plant-twin
 `npm i `
 `npm run start`
 
-## build requirements 
-`shopt -s globstar`
+
+## camera
+https://raspberrypi.stackexchange.com/questions/14229/how-can-i-enable-the-camera-without-using-raspi-config
+
 ## links
 https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
 

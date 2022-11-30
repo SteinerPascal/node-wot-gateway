@@ -1,6 +1,6 @@
 import * as WoT from "wot-typescript-definitions";
 import PiCamera from 'pi-camera';
-const addNoirAffordances = (Wot: typeof WoT,irrigTd:any)=>{
+const addQfaAffordances = (Wot: typeof WoT,irrigTd:any)=>{
     Wot.produce(irrigTd)
     .then((thing)=>{
         const imageHistory = []
@@ -35,4 +35,4 @@ const addNoirAffordances = (Wot: typeof WoT,irrigTd:any)=>{
 
     })
 }
-export default addNoirAffordances
+export default addQfaAffordances

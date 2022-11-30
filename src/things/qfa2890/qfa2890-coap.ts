@@ -1,4 +1,4 @@
-{
+export default {
     "@context": "https://www.w3.org/2019/wot/td/v1",
     "title": "QFA2890/W",
     "id": "urn:uuid:cf6464b1-89fe-40e1-a4d2-951fd6QFA2890/W",

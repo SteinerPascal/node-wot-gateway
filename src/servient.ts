@@ -9,14 +9,14 @@ import { CoapClientFactory } from '@node-wot/binding-coap';
 
 console.log(`*** SERVIENT ***`)
 const servient = new Servient();
-servient.addServer(new HttpServer());
+servient.addServer(new HttpServer({port:8081}));
 servient.addClientFactory(new CoapClientFactory())
 
 servient.start().then(async (WoT) => {
     const exposedThing = await WoT.produce(qfaTdHttp)
-    console.log(`exposedThing: ${exposedThing.getThingDescription().title}`)
+    console.log(`exposedThing: ${exposedThing.getThingDescription().title} via HTTP`)
     const consumedThing = await WoT.consume(qfaTdCoap)
-    console.log(`consumedThing: ${consumedThing.getThingDescription().title}`)
+    console.log(`consumedThing: ${consumedThing.getThingDescription().title} via COAP`)
 
     addQfaAffordances(exposedThing,consumedThing)
 

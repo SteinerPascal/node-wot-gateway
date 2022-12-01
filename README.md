@@ -42,8 +42,8 @@ make
 make install
 ```
 
-`sudo ip route add fd02:1555:fa32:1::/64 via fe80::f221:e0ff:fe97:8e0d dev wlan0`
-`sudo ip route add fd02:1555:fa32:1::/64 via fe80::ba27:ebff:fe6a:56d7 dev wlan0`
+`sudo ip route add fd02:1555:fa32:1::/64 via fe80::f221:e0ff:fe97:8e0d dev wlan0` DOESNT WORK
+`sudo ip route add fd02:1555:fa32:1::/64 via fe80::ba27:ebff:fe6a:56d7 dev wlan0` DOESNT WORK
 `sudo ip route add fd02:1555:fa32:1::/64 via fe80::1297:bdff:fe2e:c217 dev wlan0`
 `sudo ip route del fd02:1555:fa32:1::/64`
 `ping6 fd02:1555:fa32:1:f0c6:2460:4a3b:2f3b`

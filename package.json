@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start-servient": "node dist/servient.js",
-    "start-client": "node dist/cleint.js",
+    "start-client": "node dist/client.js",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"

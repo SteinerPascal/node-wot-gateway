@@ -1,11 +1,11 @@
-// server.js
-// Required steps to create a servient for creating a thing
 import {Servient} from '@node-wot/core'
 import qfaTdHttp from'./things/qfa2890/qfa2890-http'
 import { CoapClientFactory } from '@node-wot/binding-coap';
+import { HttpClientFactory } from '@node-wot/binding-http';
 
 console.log(`*** CLIENT ONLY ***`)
 const servient = new Servient();
+servient.addClientFactory(new HttpClientFactory())
 servient.addClientFactory(new CoapClientFactory())
 
 servient.start().then((WoT) => {

@@ -23,7 +23,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/rts/temproom"
+          "href": "http://localhost/p/rts/temproom"
         }
       ]
     },
@@ -39,7 +39,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/rts/tempcorrvalue"
+          "href": "http://localhost/p/rts/tempcorrvalue"
         }
       ]
     },
@@ -55,7 +55,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/rrhs/humrelroom"
+          "href": "http://localhost/p/rrhs/humrelroom"
         }
       ]
     },
@@ -70,7 +70,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/rrhs/humrelcorrvalue"
+          "href": "http://localhost/p/rrhs/humrelcorrvalue"
         }
       ]
     },
@@ -86,7 +86,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/dev/fwv"
+          "href": "http://localhost/dev/fwv"
         }
       ]
     },
@@ -102,7 +102,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/dev/model"
+          "href": "http://localhost/dev/model"
         }
       ]
     },
@@ -118,7 +118,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/dev/sn"
+          "href": "http://localhost/dev/sn"
         }
       ]
     },
@@ -134,7 +134,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/dev/pm"
+          "href": "http://localhost/dev/pm"
         }
       ]
     },
@@ -150,7 +150,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/dev/typeid"
+          "href": "http://localhost/dev/typeid"
         }
       ]
     },
@@ -166,7 +166,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/sdev/batterylevel"
+          "href": "http://localhost/p/sdev/batterylevel"
         }
       ]
     },
@@ -182,7 +182,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/sdev/batterylow"
+          "href": "http://localhost/p/sdev/batterylow"
         }
       ]
     },
@@ -198,7 +198,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/sdev/batteryuptime"
+          "href": "http://localhost/p/sdev/batteryuptime"
         }
       ]
     },
@@ -214,7 +214,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/sdev/wakeupcycle"
+          "href": "http://localhost/p/sdev/wakeupcycle"
         }
       ]
     },
@@ -230,7 +230,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/name"
+          "href": "http://localhost/p/extdev/name"
         }
       ]
     },
@@ -246,7 +246,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/eui64"
+          "href": "http://localhost/p/extdev/eui64"
         }
       ]
     },
@@ -262,7 +262,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/hwv"
+          "href": "http://localhost/p/extdev/hwv"
         }
       ]
     },
@@ -278,7 +278,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/ophours"
+          "href": "http://localhost/p/extdev/ophours"
         }
       ]
     },
@@ -294,7 +294,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/ledenable"
+          "href": "http://localhost/p/extdev/ledenable"
         }
       ]
     },
@@ -310,7 +310,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://192.168.4.36/p/extdev/selfheatCalibration"
+          "href": "http://localhost/p/extdev/selfheatCalibration"
         }
       ]
     }

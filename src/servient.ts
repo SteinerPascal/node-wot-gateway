@@ -4,10 +4,10 @@ import {Servient} from '@node-wot/core'
 import { HttpServer } from '@node-wot/binding-http';
 import qfaTdHttp from './things/qfa2890/qfa2890-http'
 import qfaTdCoap from'./things/qfa2890/qfa2890-coap'
-import addQfaAffordances from './things/qfa2890/qfa2890';
+import addQfaAffordances from './things/qfa2890/AddQfaServientAffordances';
 import { CoapClientFactory } from '@node-wot/binding-coap';
 
-console.log(`starting SERVIENT`)
+console.log(`*** SERVIENT ***`)
 const servient = new Servient();
 servient.addServer(new HttpServer());
 servient.addClientFactory(new CoapClientFactory())

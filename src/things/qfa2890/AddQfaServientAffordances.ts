@@ -7,12 +7,12 @@ const addQfaServientAffordances = async (exposedThing:WoT.ExposedThing,consumedT
 
     exposedThing.setPropertyReadHandler("rts-temproom",async ()=>{
         const res = await consumedThing.readProperty('rts-temproom')
-        return res
+        return await res.value()
     })
 
     exposedThing.setPropertyReadHandler("rrhs-humrelroom",async ()=>{
         const res = await consumedThing.readProperty('rrhs-humrelroom')
-        return res
+        return await res.value()
     })
 
     exposedThing.expose().then(()=>{

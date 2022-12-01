@@ -8,11 +8,11 @@ console.log(`starting CLIENT ONLY`)
 const servient = new Servient();
 servient.addClientFactory(new CoapClientFactory())
 
-servient.start().then(async (WoT) => {
+servient.start().then((WoT) => {
     WoT.consume(qfaTdCoap).then(async thing=>{
         console.log(`consumedThing: ${thing.getThingDescription().title}`)
         console.log(`Reading: RTS`)
-        const res = await thing.readProperty('rts-tempcorrvalue')
-        console.log(`Result is ${res}`)
+        const res = await thing.readProperty('rts-temproom')
+        console.log(`Result is ${await res.value()}`)
     })
 });

@@ -61,7 +61,7 @@ default via fe80::f221:e0ff:fe97:8e0d dev wlan0 proto ra metric 303 pref medium
 
 ### issue no rout to host on ipv6
 - make sure knx.thread is active `avahi-browse --all --resolve --terminate`
-- check route table if there is a route ` ip -6 r s`
+- check route table if there is a route `ip -6 r s`
 correct route for me was: 
 ```
 fd02:1555:fa32:1::/64 via fe80::1297:bdff:fe2e:c217 dev wlan0 metric 1024 pref medium

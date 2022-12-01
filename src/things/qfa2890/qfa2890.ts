@@ -18,12 +18,6 @@ const addQfaServientAffordances = async (exposedThing:WoT.ExposedThing,consumedT
     exposedThing.expose().then(()=>{
         console.log(`Thing ${exposedThing.getThingDescription().title} is exposed`)
     })
-
-
 }
 
-
-/*
-    CLIENT ONLY
-*/
 export default addQfaServientAffordances

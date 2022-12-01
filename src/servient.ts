@@ -7,7 +7,7 @@ import qfaTdCoap from'./things/qfa2890/qfa2890-coap'
 import addQfaAffordances from './things/qfa2890/qfa2890';
 import { CoapClientFactory } from '@node-wot/binding-coap';
 
-
+console.log(`starting SERVIENT`)
 const servient = new Servient();
 servient.addServer(new HttpServer());
 servient.addClientFactory(new CoapClientFactory())

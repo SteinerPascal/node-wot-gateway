@@ -55,6 +55,8 @@ fe80::/64 dev wlan0 proto kernel metric 256 pref medium
 default via fe80::f221:e0ff:fe97:8e0d dev wlan0 proto ra metric 303 pref medium
 ```
 
+`coap-client coap://[fd02:1555:fa32:1:f0c6:2460:4a3b:2f3b]/f`
+
 
 
 ### issue no rout to host on ipv6

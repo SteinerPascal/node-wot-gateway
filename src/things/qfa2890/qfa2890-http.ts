@@ -23,7 +23,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/rts/temproom"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/rts/temproom"
         }
       ]
     },
@@ -39,7 +39,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/rts/tempcorrvalue"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/rts/tempcorrvalue"
         }
       ]
     },
@@ -55,7 +55,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/rrhs/humrelroom"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/rrhs/humrelroom"
         }
       ]
     },
@@ -70,7 +70,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/rrhs/humrelcorrvalue"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/rrhs/humrelcorrvalue"
         }
       ]
     },
@@ -86,7 +86,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/dev/fwv"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomdev/fwv"
         }
       ]
     },
@@ -102,7 +102,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/dev/model"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomdev/model"
         }
       ]
     },
@@ -118,7 +118,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/dev/sn"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomdev/sn"
         }
       ]
     },
@@ -134,7 +134,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/dev/pm"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomdev/pm"
         }
       ]
     },
@@ -150,7 +150,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/dev/typeid"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomdev/typeid"
         }
       ]
     },
@@ -166,7 +166,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/sdev/batterylevel"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/sdev/batterylevel"
         }
       ]
     },
@@ -182,7 +182,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/sdev/batterylow"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/sdev/batterylow"
         }
       ]
     },
@@ -198,7 +198,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/sdev/batteryuptime"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/sdev/batteryuptime"
         }
       ]
     },
@@ -214,7 +214,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/sdev/wakeupcycle"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/sdev/wakeupcycle"
         }
       ]
     },
@@ -230,7 +230,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/name"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/name"
         }
       ]
     },
@@ -246,7 +246,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/eui64"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/eui64"
         }
       ]
     },
@@ -262,7 +262,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/hwv"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/hwv"
         }
       ]
     },
@@ -278,7 +278,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/ophours"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/ophours"
         }
       ]
     },
@@ -294,7 +294,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/ledenable"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/ledenable"
         }
       ]
     },
@@ -310,7 +310,7 @@ export default {
             "readproperty",
             "observeproperty"
           ],
-          "href": "http://localhost:8081/p/extdev/selfheatCalibration"
+          "href": "http://localhost:8081/qfa2890w/properties/rts-temproomp/extdev/selfheatCalibration"
         }
       ]
     }

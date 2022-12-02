@@ -1,6 +1,8 @@
 # node-wot-gateway
 node-wot used as my gateway for the plant-twin
 
+![architectur.jpg](docs/nodewot-gateway-architecture.jpg "Architecture")
+
 ## installs for node-wot-gateway
 `sudo apt update`
 

@@ -1,7 +1,7 @@
 import * as WoT from "wot-typescript-definitions";
 
-const addIrrigAfforadances = (Wot: typeof WoT,irrigTd:any)=>{
-    Wot.produce(irrigTd)
+const addLoraSenseAffordances = (Wot: typeof WoT,loraTd:any)=>{
+    Wot.produce(loraTd)
     .then((thing)=>{
         console.log(`Produced thing: ${JSON.stringify(thing.getThingDescription())}`)
 
@@ -19,4 +19,4 @@ const addIrrigAfforadances = (Wot: typeof WoT,irrigTd:any)=>{
 
     })
 }
-export default addIrrigAfforadances
+export default addLoraSenseAffordances

@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@node-wot/binding-http": "^0.8.2",
+    "@node-wot/binding-lora": "file:../thingweb.node-wot/packages/binding-lora",
     "@node-wot/core": "^0.8.2",
     "pi-camera": "^1.7.0"
   }

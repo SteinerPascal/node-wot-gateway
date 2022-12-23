@@ -9,22 +9,22 @@ export default {
       }
     },
     "security": "nosec_sc",
-    "properties": {},
-    "actions": {},
-    "events": {
+    "properties": {
       "roomtemp": {
         "title": "roomtemp",
         "data":{"type": "object"},
         "forms": [
           {
             "op": [
-              "subscribeevent",
-              "unsubscribeevent"
+              "observeproperty",
+              "unobserveproperty"
             ],
-            "href": "lora://868mhz/device/1",
-              "subprotocol": "pascallora" 
+            "href": "lora://868mhz/device/1/humidity",
+            "subprotocol": "pascallora" 
           }
         ]
       }
-    }
+    },
+    "actions": {},
+    "events": {}
   } as ThingDescription

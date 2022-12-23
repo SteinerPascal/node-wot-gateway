@@ -12,11 +12,11 @@ servient.start().then((WoT) => {
     console.log('consuming')
     WoT.consume(lorasense).then(async thing=>{
         console.log(`consumedThing: ${thing.getThingDescription().title}`)
-        thing.subscribeEvent("roomtemp", async (data) => {
-            // Here we are simply logging the message when the event is emitted
-            // But, of course, could have a much more sophisticated handler
-            console.log("outOfResource event:",await data.value());
-        });
+        thing.observeProperty("roomtemp", async (data) => {
+          // Here we are simply logging the message when the value changes
+          // But, of course, could have a much more sophisticated handler
+          console.log("observed change:",await data.value());
+      });
         function counter() {
             console.log('count')
             let count = 0

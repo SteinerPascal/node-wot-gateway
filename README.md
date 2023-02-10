@@ -40,6 +40,13 @@ make
 make install
 ```
 
+For WSL2 run additionally 
+```
+sudo service dbus start
+
+sudo service avahi-daemon start
+```
+
 ### Debug COAP
 
 `sudo ip route add fd02:1555:fa32:1::/64 via fe80::1297:bdff:fe2e:c217 dev wlan0`
